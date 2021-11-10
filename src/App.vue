@@ -2,16 +2,22 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <titolo title="La mia prima app con Vue CLI "/>
+    <Jumbo/>
+    
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import titolo from './components/title.vue'
+import Jumbo from './components/jumbo.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    titolo,
+    Jumbo,
   }
 }
 </script>
@@ -26,3 +32,5 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
